@@ -1,0 +1,85 @@
+css:
+.container-fluid {
+  background-color:yellow;
+  padding: 20px;
+}
+.row_header{
+    background-color:orange;
+    height: 3rem;
+    width:3rem;
+}
+.header {
+  background-color: blue;
+  padding: 20px;
+  height:200px;
+  border: 2px solid black;
+}
+
+.nav {
+  background-color: green;
+  padding:20px;
+  height:100px;
+  border: 2px solid black;
+}
+.content {
+  background-color: red;
+  padding:20px;
+  height:200px;
+  border: 2px solid black;
+}
+
+.aside {
+  background-color: aqua;
+  padding:20px;
+  height:200px;
+  border: 2px solid black;
+}
+
+.promo {
+  background-color: orange;
+  padding:20px;
+  height:250px;
+  border: 2px solid black;
+}
+
+.row3{
+    display:flex;
+    justify-content:flex-start;
+}
+.one{
+    height: 40px;
+    width:50px;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  height:200px;
+  border: 2px solid black;
+  color:white;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width:833px){
+.footer{
+	background-color:orange;
+}
+    @media screen and (min-width:768px){
+        .footer{
+            background-color:coral;
+        }
+    }
+@media screen and (min-width:460px){
+	.footer{
+		background-color:purple;
+	}
+}
+
+@media screen and (min-width:375px){
+  .footer{
+    background-color:white;
+  }
+}
